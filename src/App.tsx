@@ -10,7 +10,6 @@ import VenueOwners from "./pages/VenueOwners";
 import Venues from "./pages/Venues";
 import Bookings from "./pages/Bookings";
 import Analytics from "./pages/Analytics";
-import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -80,17 +79,6 @@ function App() {
                 <>
                   <NavBar />
                   <Analytics />
-                </>
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/settings"
-            element={
-              <ProtectedRoute>
-                <>
-                  <NavBar />
-                  <Settings />
                 </>
               </ProtectedRoute>
             }

@@ -7,7 +7,6 @@ import {
   BuildingOfficeIcon,
   CalendarIcon,
   ChartBarIcon,
-  CogIcon,
   Bars3Icon,
   XMarkIcon,
   ArrowRightOnRectangleIcon,
@@ -26,7 +25,6 @@ const NavBar: React.FC = () => {
     { name: "Venues", href: "/venues", icon: BuildingOfficeIcon },
     { name: "Bookings", href: "/bookings", icon: CalendarIcon },
     { name: "Analytics", href: "/analytics", icon: ChartBarIcon },
-    { name: "Settings", href: "/settings", icon: CogIcon },
   ];
 
   const handleLogout = () => {

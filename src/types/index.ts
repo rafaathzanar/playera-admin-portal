@@ -215,17 +215,3 @@ export interface AdminAction {
   createdAt: string;
 }
 
-// Settings Types
-export interface PlatformSettings {
-  id: number;
-  platformName: string;
-  platformCommission: number;
-  maxBookingAdvanceDays: number;
-  cancellationPolicy: string;
-  refundPolicy: string;
-  supportEmail: string;
-  supportPhone: string;
-  maintenanceMode: boolean;
-  createdAt: string;
-  updatedAt: string;
-}

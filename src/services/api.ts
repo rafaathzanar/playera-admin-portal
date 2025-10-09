@@ -258,15 +258,6 @@ class AdminApiService {
     return await this.request("/admin/actions", "POST", actionData);
   }
 
-  // Platform Settings APIs
-  async getPlatformSettings() {
-    return await this.request("/admin/settings");
-  }
-
-  async updatePlatformSettings(settings: any) {
-    return await this.request("/admin/settings", "PUT", settings);
-  }
-
   // Reports APIs
   async generateReport(reportType: string, filters: any = {}) {
     const queryParams = new URLSearchParams({ ...filters, type: reportType }).toString();
